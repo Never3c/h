@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Company Portal</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="logo">
+      <h2>CompanyPortal</h2>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Registrera företag</a></li>
+        <li><a href="#">Ärenden</a></li>
+        <li><a href="#">Dokument</a></li>
+        <li><a href="#">Betalningar</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+
+    <header class="topbar">
+      <div>
+        <h1>Företagsregistrering</h1>
+        <p>Registrera nytt företag</p>
+      </div>
+    </header>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Aktiva ärenden</h3>
+        <p>12</p>
+      </div>
+
+      <div class="card">
+        <h3>Registrerade företag</h3>
+        <p>245</p>
+      </div>
+    </section>
+
+    <section class="form-section">
+
+      <form id="companyForm">
+
+        <div class="form-group">
+          <label>Företagsnamn</label>
+          <input type="text" id="companyName" />
+        </div>
+
+        <div class="form-group">
+          <label>Organisationsnummer</label>
+          <input type="text" id="orgNumber" />
+        </div>
+
+        <button type="submit" class="submit-btn">
+          Skicka registrering
+        </button>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
